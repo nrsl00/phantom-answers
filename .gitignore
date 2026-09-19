@@ -1,0 +1,31 @@
+# Generated build output and local IDE state
+.gradle/
+.kotlin/
+.intellijPlatform/
+.idea/
+build/
+out/
+*.iml
+*.ipr
+*.iws
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+local.properties
+gradle-local.properties
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+
+# Keep the Gradle wrapper JAR and shared .run configurations tracked.
